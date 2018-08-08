@@ -20,3 +20,10 @@ Find the div containing each article - class="gel-wrap"
   - [x] Remove HTML and white space
     - [x] Print article headline
 
+* Choose how many headlines are displayed
+  - [ ] Pass an argument via command line or menu options
+  
+* Give the option to print a small passage from the article
+  - [ ] Find the element that contains a brief summary of the article
+   - [ ] Pull only the the summaries of articles requested
+
