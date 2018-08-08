@@ -12,10 +12,11 @@ Headline of every article on page | ```gs-c-promo-heading__title gel-pica-bold n
 Find the div containing each article - class="gel-wrap" 
 --------------------------------------------------------	
 * Find the headline article
-  -[x] Get the headline from that article
-    -[x] Remove HTML and white space
-      -[x] Print headline
+  - [x] Get the headline from that article
+    - [x] Remove HTML and white space
+      - [x] Print headline
 
--[x] Get all other headlines from other articles
-  -[x] Remove HTML and white space
-    -[x] Print article headline
+* Get all other headlines from other articles
+  - [x] Remove HTML and white space
+    - [x] Print article headline
+
