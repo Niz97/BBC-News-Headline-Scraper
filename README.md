@@ -4,8 +4,8 @@
 
 Class | Content
 ------|--------
-Headline article | ```gs-c-promo-heading__title gel-paragon-bold nw-o-link-split__text```
-Headline of every article on page | ```gs-c-promo-heading__title gel-pica-bold nw-o-link-split__text```
+Headline article | gs-c-promo-heading__title gel-paragon-bold nw-o-link-split__text
+Headline of every article on page | gs-c-promo-heading__title gel-pica-bold nw-o-link-split__text
 
 
 # TO DO
