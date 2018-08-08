@@ -8,12 +8,12 @@ URL = requests.get("https://www.bbc.co.uk/news")
 soup = BeautifulSoup(URL.text, 'html.parser')
 
 
-articles = soup.select(".gs-c-promo-heading__title")
+headlines = soup.select(".gs-c-promo-heading__title")
 
 # print("articles contains {} elements\n".format(len(articles)))
 
-# for article in articles:
-# 	print(article.get_text())
+# for headline in headlines:
+# 	print(headlines.get_text())
 	
 def print_list(list):
 	data = list
@@ -29,4 +29,3 @@ def get_element_text(list_of_elements, n):
 
 	return element_text
 
-print_list(get_element_text(articles, 6))
