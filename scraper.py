@@ -8,10 +8,10 @@ URL = requests.get("https://www.bbc.co.uk/news")
 soup = BeautifulSoup(URL.text, 'html.parser')
 
 
-sub_articles = soup.select(".gs-c-promo-heading__title")
+articles = soup.select(".gs-c-promo-heading__title")
 
-# b vprint("sub_articles contains {} elements\n".format(len(sub_articles)))
+# print("articles contains {} elements\n".format(len(articles)))
 
-for article in sub_articles:
+for article in articles:
 	print(article.get_text())
 	
