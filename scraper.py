@@ -15,10 +15,18 @@ articles = soup.select(".gs-c-promo-heading__title")
 # for article in articles:
 # 	print(article.get_text())
 	
-def print_element_text(list_of_elements, n):
+def print_list(list):
+	data = list
+	for element in data:
+		print(element)
+
+def get_element_text(list_of_elements, n):
 	number_of_elements = n
 	elements = list_of_elements
+	element_text = []
 	for i in range(number_of_elements):
-		print(elements[i].get_text())
+		element_text.append(elements[i].get_text())
 
-print_element_text(articles, 6)
+	return element_text
+
+print_list(get_element_text(articles, 6))
